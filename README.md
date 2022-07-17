@@ -1,4 +1,4 @@
-# docbook-5.0.0
+# docbook-xml5
 
 Scripts and patches for creating a Slackware 15.0 installation package from
 official [DocBook5 DTD and Schemas](https://docbook.org/xml/5.0/docbook-5.0.zip).
