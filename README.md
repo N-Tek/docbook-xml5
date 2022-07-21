@@ -42,7 +42,8 @@ For detailed package creation and installation info check [here][slackbuildsHowT
 
 Remove package by using **_removepkg_** command as root. For further info check [here][slackwarePkgRmv].
 
-Replace the updated _docbook_ in **_/etc/xml/_** with it's backup having '.mathml1mods_orig' suffix.
+Reinstall **_linuxdoc-tools_** package located under **slackware/ap** for resetting
+**_/etc/xml/docbook_** catalog file to its original state 
 
 ## Usage
 
