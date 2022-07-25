@@ -8,12 +8,12 @@
             |-----handy-ruler------------------------------------------------------|
 docbook-xml5: docbook-xml5 (DocBook XML V5.0)
 docbook-xml5:
-docbook-xml5: DocBook XML v5.0 dtd and schemas
+docbook-xml5: DocBook XML v5.0 dtd and schemas with XML stylesheets in a namespace
 docbook-xml5:
 docbook-xml5:
 docbook-xml5:
 docbook-xml5:
 docbook-xml5:
 docbook-xml5:
-docbook-xml5:
+docbook-xml5: https://cdn.docbook.org/release/xsl/current/
 docbook-xml5: http://docbook.org/xml/5.0/docbook-5.0.zip
