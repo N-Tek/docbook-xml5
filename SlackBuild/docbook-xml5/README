@@ -1,11 +1,13 @@
 docbook-xml5 is a group of shell scripts and 
 required files used for creating a removable 
 SlackBuild package for DocBook5 XML dtd and schemas
+with XML stylesheets in a namespace
 
 After the installation of DocBook5 XML dtd and schemas
-one of the new catalog files(docbook.new1 OR docbook.new2) 
-has to be moved to the /etc/xml/docbook which was installed 
-by the 'linuxdoc-tools' package located under 'slackware/ap'.
+with XML stylesheets in a namespace one of the new catalog 
+files(docbook.new1 OR docbook.new2) has to be moved to the 
+/etc/xml/docbook which was installed by the 'linuxdoc-tools' 
+package located under 'slackware/ap'.
 
 If 'docbookMathML1mods' was NOT installed
         docbook.new1 -> /etc/xml/docbook
@@ -21,4 +23,5 @@ user to /etc/xml/docbook for finalizing installation
 
 After the uninstallation of the 'docbook-xml5' package
 DON'T forget to reinstall 'linuxdoc-tools' package for 
-resetting the /etc/xml/docbook to its original state.
+resetting the /etc/xml/docbook and /usr/share/xml/ to 
+its original state.
