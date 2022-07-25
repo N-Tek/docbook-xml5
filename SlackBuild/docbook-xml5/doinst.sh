@@ -13,8 +13,8 @@ config() {
 
 create_soft_links() {
    DOCBOOK_DIR="$1"
-   ( cd $DOCBOOK_DIR/stylesheets; rm -rf docbook-xsl-ns )
-   ( cd $DOCBOOK_DIR/stylesheets; ln -sf ../xsl-ns-stylesheets-1.79.2 docbook-xsl-ns )
+   ( cd $DOCBOOK_DIR/stylesheet; rm -rf docbook-xsl-ns )
+   ( cd $DOCBOOK_DIR/stylesheet; ln -sf ../xsl-ns-stylesheets-1.79.2 docbook-xsl-ns )
    ( cd $DOCBOOK_DIR; rm -rf xsl-ns-stylesheets )
    ( cd $DOCBOOK_DIR; ln -sf xsl-ns-stylesheets-1.79.2 xsl-ns-stylesheets )
 }
