@@ -14,7 +14,7 @@ If 'docbookMathML1mods' was NOT installed
 else
         docbook.new2 -> /etc/xml/docbook
 
-SlackBuild script file will check installation of 'docbookMathML1mods'
+SlackBuild script file will check installation of 'docbook-xml5'
 and include the related new catalog file into the 'docbook-xml5'
 SlackBuild package as docbook.new
 
@@ -22,6 +22,13 @@ If /etc/xml/docbook.new is present it has to be manually moved by the
 user to /etc/xml/docbook for finalizing installation
 
 After the uninstallation of the 'docbook-xml5' package
-DON'T forget to reinstall 'linuxdoc-tools' package for 
-resetting the /etc/xml/docbook and /usr/share/xml/ to 
-its original state.
+DON'T forget to remove symbolic links 
+
+    /usr/share/xml/docbook/stylesheet/docbook-xsl-ns
+    /usr/share/xml/docbook/xsl-ns-stylesheets
+
+and 
+
+    reinstall 'linuxdoc-tools' package for 
+    resetting the /etc/xml/docbook and /usr/share/xml/ to 
+    its original state.
