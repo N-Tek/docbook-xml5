@@ -40,5 +40,13 @@
 	<!-- NVDL - Namespace-based Validation Dispatch Language, used for validation of XML documents using multiple namespaces -->
 	<uri name="http://www.oasis-open.org/docbook/xml/5.0/docbook.nvdl" uri="docbook.nvdl"/>
 	<uri name="http://docbook.org/xml/5.0/docbook.nvdl" uri="docbook.nvdl"/>
+
+	<!-- DocBook XSL Stylesheets (1.79.2 - current) in a namespace -->
+	<rewriteURI uriStartString="http://cdn.docbook.org/release/xsl/1.79.2/" rewritePrefix="../xsl-ns-Stylesheets-1.79.2/"/>
+	<rewriteSystem systemIdStartString="http://cdn.docbook.org/release/xsl/1.79.2/" rewritePrefix="../xsl-ns-Stylesheets-1.79.2/"/>
+	<rewriteURI uriStartString="http://cdn.docbook.org/release/xsl/current/" rewritePrefix="../xsl-ns-Stylesheets-1.79.2/"/>
+	<rewriteSystem systemIdStartString="http://cdn.docbook.org/release/xsl/current/" rewritePrefix="../xsl-ns-Stylesheets-1.79.2/"/>
+	<rewriteURI uriStartString="https://cdn.docbook.org/release/xsl/snapshot/" rewritePrefix="../xsl-ns-Stylesheets-1.79.2/"/>
+	<rewriteSystem systemIdStartString="https://cdn.docbook.org/release/xsl/snapshot/" rewritePrefix="../xsl-ns-Stylesheets-1.79.2/"/>
     </group>
 </catalog>
