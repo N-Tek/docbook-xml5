@@ -78,6 +78,8 @@ find -L . \
 # create installation directory tree for the original files
 mkdir --parents $PKG/usr/share/xml/docbook/5.0
 cp --archive --recursive $TMP/$PRGNAM-$VERSION/docbook-5.0/* $PKG/usr/share/xml/docbook/5.0/
+cp --archive --recursive $TMP/$PRGNAM-$VERSION/catalog_docbook-5.0.0.xml $PKG/usr/share/xml/docbook/5.0/
+cp --archive --recursive $TMP/$PRGNAM-$VERSION/xsl-ns-stylesheets-1.79.2 $PKG/usr/share/xml/docbook/
 mkdir --parents $PKG/etc/xml/
 if [ ! -f /var/log/packages/docbookMathML1mods* ]; then                   # if 'docbookMathML1mods' was NOT installed
     cp --archive --recursive ./docbook.new1 $PKG/etc/xml/docbook.new
