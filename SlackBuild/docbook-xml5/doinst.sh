@@ -1,7 +1,7 @@
-catalog_filepath=/etc/xml/docbook
+catalog_filepath=etc/xml/docbook
 
-if [ ! -e /etc/xml ]; then
-    mkdir -p /etc/xml
+if [ ! -e etc/xml ]; then
+    mkdir -p etc/xml
     xmlcatalog --noout --create $catalog_filepath
 fi
 
@@ -100,7 +100,7 @@ xmlcatalog --noout --add 'rewriteURI' \
   $catalog_filepath
  
 # 'docbookMathML1mods' package installation check
-if [ -e /var/lib/pkgtools/packages/docbookMathML1mods* ]; then
+if [ -e var/lib/pkgtools/packages/docbookMathML1mods* ]; then
     xmlcatalog --noout --add 'nextCatalog' \
       '' \
       "file:///usr/share/xml/docbook/custom/mathml/catalog_DocBook_MathML1_mods.xml" \
