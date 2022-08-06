@@ -14,7 +14,7 @@ that must be used with DocBook5 XML dtd and schemas:
     /usr/share/xml/docbook/stylesheet/docbook-xsl-ns
     /usr/share/xml/docbook/xsl-ns-stylesheets
 
-After uninstallation of the 'docbook-xml5' package please 
-DON'T forget to reinstall 'linuxdoc-tools' package for 
-resetting the /etc/xml/docbook and /usr/share/xml/ to 
-its original state.
+After uninstallation of the 'docbook-xml5' package
+/etc/xml/docbook and /usr/share/xml/ will be reset
+automatically to the original state defined by the 
+'linuxdoc-tools'
