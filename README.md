@@ -42,9 +42,6 @@ For detailed package creation and installation info check [here][slackbuildsHowT
 
 Remove package by using **_removepkg_** command as root. For further info check [here][slackwarePkgRmv].
 
-Reinstall **_linuxdoc-tools_** package located under **slackware/ap** for resetting
-**_/etc/xml/docbook_** catalog file to its original state 
-
 ## Usage
 
 This package is presented as a requirement for [openGLRefToMan](https://github.com/N-Tek/openGLRefToMan).  
